@@ -1,0 +1,159 @@
+@import "../../vars.css";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 200px;
+  padding: 55px;
+  padding-bottom: 80px;
+  background-color: #f9f9f96c;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.glowingBtn {
+  position: relative;
+  color: hsl(186, 100%, 69%);
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0.40em 1em;
+  border: 0.15em solid hsl(186, 100%, 69%);
+  border-radius: 0.45em;
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  box-shadow: inset 0 0 0.5em 0 hsl(186, 100%, 69%),
+    0 0 0.5em 0 hsl(186, 100%, 69%);
+  animation: borderFlicker 2s linear infinite;
+}
+
+.glowingTxt {
+  text-shadow: 0 0 0.125em hsl(0, 0%, 100% / 0.3),
+    0 0 0.45em hsl(186, 100%, 69%);
+  animation: textFlicker 3s linear infinite;
+}
+
+.faultyLetter {
+  opacity: 0.5;
+  animation: faultyFlicker 2s linear infinite;
+} */
+
+
+.glowingBtn:hover {
+  color: #ffffff; 
+  /* background-color: hsl(186, 100%, 50%); Darker background for contrast */
+  /* box-shadow: 0 0 15px hsl(186, 100%, 75%), 0 0 20px hsl(186, 100%, 75%) inset; Outer and inner glow */
+}
+
+.glowingBtn:hover .glowingTxt {
+  /* animation: none; Optionally stop the text flicker animation */
+  text-shadow: 0 0 8px hsl(186, 100%, 80%), 0 0 10px hsl(186, 100%, 80%),
+    /* 0 0 12px hsl(186, 100%, 80%); Enhance text glow */
+}
+
+.glowingBtn:hover .faultyLetter {
+  /* opacity: 1; Ensure the faulty letter is fully visible */
+  /* animation: none; Optionally stop the faulty flicker animation */
+}
+
+
+
+.links {
+  position:relative;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap:70px;
+  margin-bottom: 50px;
+}
+
+.link {
+  width: 140px;
+  height: 140px;
+  transition: transform 0.2s ease;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 25px;
+  }
+
+  .content h2 {
+    font-size: 24px;  /* Smaller font size for smaller screens */
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 16px;  /* Smaller font size for text descriptions */
+    margin-bottom: 20px;
+  }
+
+  .links {
+    flex-direction: column;  /* Stack the links vertically on smaller screens */
+    gap: 30px;  /* Adjust gap between stacked links */
+  }
+
+  .link {
+    width: 100px;  /* Smaller icons for smaller screens */
+    height: 100px;
+  }
+}
+

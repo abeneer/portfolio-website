@@ -1,0 +1,25 @@
+[
+  {
+    "role": "MongoDb with Django Internship",
+    "organisation": "Verzeo",
+    "startDate": "sep, 2022",
+    "endDate": "oct, 2022",
+    "experiences": [" Integrate MongoDB with Django applications, adapting Django models to work with MongoDB's NoSQL structure using tools like Djongo or MongoEngine.", 
+    "Design and manage MongoDB schemas to optimize the storage and retrieval of data, ensuring scalability and performance of web applications."],
+    "imageSrc": "history/verzeo.png"
+  },
+
+  {
+    "role": "Web Developer",
+    "organisation": "Zencraft",
+    "startDate": "oct, 2022",
+    "endDate": "dec, 2023",
+    "experiences": ["Built custom websites according to specific customer requirements, ensuring functionality and aesthetics aligned with client objectives.",
+    "Analyzed design proposals, mockups, and client feedback to implement visually appealing and functional websites that enhance user engagement and satisfaction",
+     "Managed website content updates and optimizations to improve user experience, increase website traffic, and enhance search engine rankings",
+    "Worked closely with clients to understand their needs, provide strategic advice, and ensure the successful delivery of projects, leading to high client satisfaction and repeat business."],
+    "imageSrc": "history/zencraft.png"
+  }
+]
+
+     

@@ -1,0 +1,25 @@
+[
+    {
+        "title": "To-Do-List App",
+        "imageSrc": "projects/todolist.png",
+        "description":"This to-do list app is a sleek and interactive tool that simplifies task management with dynamic backgrounds, showcasing my web development skills.",
+        "skills": ["HTML", "CSS", "Javascript"],
+        "source":"https://github.com/abeneer/To-Do-List-App"
+    },
+
+    {
+        "title": "Static e-Commerce Website",
+        "imageSrc": "projects/ecom.png",
+        "description":"This project is a responsive e-commerce site for electronics, with features like carousels, a shopping cart, and user login, using HTML, CSS, JavaScript, Bootstrap, and SwiperJS.        ",
+        "skills": ["HTML", "CSS", "Javascript"],
+        "source":"https://github.com/abeneer/static-ecommerce-website"
+    },
+
+    {
+        "title": "Weather-App",
+        "imageSrc": "projects/weather.png",
+        "description":"Discover real-time weather insights with our interactive weather app, seamlessly blending precision forecasts and vibrant visuals to bring the climate of any city right to your fingertips.",
+        "skills": ["HTML", "CSS", "React js"],
+        "source":"https://github.com/abeneer/Weather-App"
+    }
+]

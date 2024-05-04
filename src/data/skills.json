@@ -1,0 +1,47 @@
+[
+    {
+        "title":"HTML",
+        "imageSrc":"skills/html.png"
+    },
+    {
+        "title":"CSS",
+        "imageSrc":"skills/css.png"
+    },
+    {
+        "title":"Javascript",
+        "imageSrc":"skills/javascript.png"
+    },
+    {
+        "title":"React",
+        "imageSrc":"skills/react.png"
+    },
+    {
+        "title":"Python",
+        "imageSrc":"skills/python.png"
+    },
+    {
+        "title":"Django",
+        "imageSrc":"skills/django.png"
+    },
+    {
+        "title":"MongoDB",
+        "imageSrc":"skills/mondoDB.png"
+    },
+    {
+        "title":"Node",
+        "imageSrc":"skills/nodejs.png"
+    },
+    {
+        "title":"Wordpress",
+        "imageSrc":"skills/wordpress.png"
+    },
+    {
+        "title":"Vs code",
+        "imageSrc":"skills/vscode.png"
+    },
+    {
+        "title":"Canva",
+        "imageSrc":"skills/canva.png"
+    }
+    
+]
