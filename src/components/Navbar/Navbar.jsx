@@ -51,7 +51,7 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleResumeClick = () => {
-        const resumeUrl = "/public/resume/abeneer_resume.pdf"; 
+        const resumeUrl = "https://drive.google.com/file/d/1H_Gphso2Ie7cTv8LbLO_-nL7rZHI6sL1/view?usp=drive_link"; 
         window.open(resumeUrl, "_blank");
     };
 
