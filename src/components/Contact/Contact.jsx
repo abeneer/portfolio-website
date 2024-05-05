@@ -9,7 +9,6 @@ export const Contact = () => {
             <section className={styles.container} id="contact">
                 <div className={styles.content}>
                     <h2>Contact Me</h2>
-                    <p>Feel free to reach out by completing the form – I'd love to hear from you!</p>
                 </div>
 
                 {/* <form className={styles.form}>

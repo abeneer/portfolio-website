@@ -51,7 +51,7 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleResumeClick = () => {
-        const resumeUrl = "/assets/resume/abeneer_resume.pdf"; // Replace with the URL to your resume
+        const resumeUrl = "/public/resume/abeneer_resume.pdf"; 
         window.open(resumeUrl, "_blank");
     };
 
